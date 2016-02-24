@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.dependency 'Google/SignIn'
   s.dependency 'AEXML'
 
-  s.frameworks = 'SafariServices'
+  s.frameworks = 'SafariServices', 'FBSDKLoginKit'
 
 end
