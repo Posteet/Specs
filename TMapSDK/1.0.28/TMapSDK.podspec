@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = '*.{h,m}'
   s.public_header_files = '*.h'
-  s.vendored_libraries = 'TopLib_Op.a'
+  s.vendored_libraries = 'libTMapSDK.a'
   s.resources = 'Images/*'
   s.frameworks = 'UIKit', 'CoreTelephony'
 
