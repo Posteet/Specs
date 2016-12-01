@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.vendored_frameworks = 'KakaoNavi.framework'
   s.source_files = '*.{h,m}'
-  s.frameworks = 'UIKit'
+  s.frameworks = 'CoreGraphics', 'CoreFoundation'
 
 end
